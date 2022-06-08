@@ -1,0 +1,489 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Forum&family=Lato:wght@300&family=Montserrat:ital,wght@0,200;0,600;1,400&family=Noto+Sans:wght@400;700&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@500&display=swap');
+
+#header {
+  .header {
+
+    &_general {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      img, a {
+        margin: 30px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF
+      }
+
+    }
+  }
+
+  #hero {
+    .hero {
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        margin: 193px 0 39px 0;
+        color: #FFFFFF;
+        padding-right: 700px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 80px;
+        color: #FFFFFF;
+        padding-right: 800px;
+      }
+
+      button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        background: #FF9900;
+        border-radius: 60px 0 0 60px;
+        width: 331px;
+        height: 41px;
+        border: 1px solid #FF9900;
+        margin-bottom: 300px;
+      }
+
+      .btn2 {
+        width: 139px;
+        height: 41px;
+        background: transparent;
+        border-radius: 0 60px 60px 0;
+        margin-left: -5px;
+      }
+    }
+  }
+}
+
+#slider {
+
+  .container {
+
+    .slider {
+      h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin: 0 20px 30px 0;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin: 140px 20px 30px 0;
+
+      }
+
+      &_general {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+
+        .slick-prev {
+          width: 100%;
+          margin-left: 30px;
+          background: url("/img/Arrow 7.svg") no-repeat, 194px 0;
+          border: none;
+          position: absolute;
+          left: 500px;
+          height: 100%;
+        }
+
+        .slick-next {
+          width: 100%;
+          margin-right: 30px;
+          background: url("/img/Arrow 8.png") no-repeat, 194px 0;
+          border: none;
+          position: absolute;
+          left: 800px;
+          height: 100%;
+          top: -3px;
+
+        }
+
+        &__block {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          margin:  100px 50px 0 0;
+
+          .img {
+            margin-bottom: -80px;
+            position: center;
+            z-index: 10;
+          }
+
+          &__block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 241px;
+            height: 267px;
+            background: radial-gradient(100% 100% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+          ;
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+
+            h2 {
+              margin: 80px 0 20px 0;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 22px;
+
+              color: #FFFFFF;
+
+            }
+
+            p {
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 15px;
+              text-align: center;
+
+              color: #FFFFFF;
+            }
+
+            .check_box {
+              margin: 25px 0 15px 0;
+              display: flex;
+              justify-content: center;
+
+              input {
+                border-radius: 50px;
+              }
+            }
+
+            .price {
+              display: flex;
+              justify-content: center;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 15px;
+              margin: 10px 0 20px 0;
+              text-align: center;
+
+              color: #FFFFFF;
+
+              button {
+                color: #FFFFFF;
+                border: none;
+                width: 83px;
+                height: 25px;
+                background: #FF9900;
+                border-radius: 60px;
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+}
+#chef {
+  .container {
+    .chef {
+      &_general {
+        display: flex;
+        justify-content: center;
+        padding-top: 200px;
+
+        &__title {
+          margin: 150px 0 0 100px;
+          text-align: left;
+        }
+
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: left;
+          color: #FFFFFF;
+        }
+
+        .img {
+          img {
+            margin: 5px;
+          }
+
+          margin: 50px 0 0 50px;
+
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          margin-top: 40px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  #booked {
+    margin: 100px 0 0 400px;
+
+    .booked {
+
+      &_general {
+        padding-top: 50px;
+
+        h1 {
+
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 29px;
+
+          color: #FF9900;
+        }
+
+        &__name {
+
+
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          margin-top: 25px;
+          color: #FF9900;
+
+          input {
+            width: 343px;
+            height: 38px;
+            border: 1px solid #FF9900;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            background: transparent;
+            color: #5b5a59;
+          }
+        }
+
+        &__date {
+
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          margin-top: 25px;
+          color: #FF9900;
+
+          input {
+            width: 147px;
+            height: 47px;
+            border: 1px solid #FF9900;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            background: transparent;
+            color: #5b5a59;
+          }
+        }
+
+        &__com {
+
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          margin-top: 25px;
+          color: #FF9900;
+
+          input {
+            width: 343px;
+            height: 88px;
+            border: 1px solid #FF9900;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            background: transparent;
+            color: #5b5a59;
+          }
+        }
+
+        button {
+          width: 250px;
+          height: 51px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 29px;
+          color: #FFFFFF;
+          background: #FF9900;
+          border-radius: 20px;
+          margin: 20px 0 0 40px;
+        }
+      }
+    }
+  }
+
+  .container {
+  }
+
+  #reviews {
+    padding-top: 150px;
+    margin-bottom: 100px;
+    .reviews {
+      &_general {
+
+        display: flex;
+        justify-content: center;
+
+        &__title {
+          text-align: left;
+
+          h1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+          }
+
+          h2 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            margin: 30px 0;
+            color: #FFFFFF;
+            padding-right: 300px;
+          }
+
+          button {
+            width: 270px;
+            height: 63px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+            border: 1px solid #FF9900;
+            border-radius: 60px;
+            background: transparent;
+          }
+        }
+
+        &__slider {
+          &__block {
+            width: 500px;
+            height: 571px;
+            padding: 60px 50px;
+
+            background: radial-gradient(100% 100% at 0% 33.19%, rgba(126, 126, 126, 0.46) 0%, rgba(114, 112, 112, 0.46) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+          ;
+            backdrop-filter: blur(10px);
+            border-radius: 60px;
+
+            .item {
+              display: flex;
+              justify-content: center;
+
+
+              .title {
+                margin-left: 20px;
+
+                h3 {
+                  font-weight: 600;
+                  font-size: 18px;
+                  line-height: 22px;
+                  margin-bottom: 15px;
+                  color: #FFFFFF;
+                }
+
+                p {
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 15px;
+                  margin: 15px 0;
+                  color: #FFFFFF;
+                }
+
+                span {
+                  display: flex;
+                  justify-content: space-between;
+
+                  button, h5 {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    background: transparent;
+                    color: #FFFFFF;
+                    border: none;
+                    margin-bottom: 80px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  #slider2{
+    .images{
+      display: flex;
+      justify-content: center;.slick-prev {
+      width: 100%;
+      margin-left: 30px;
+      background: url("/img/Arrow 7.svg") no-repeat, 194px 0;
+      border: none;
+      position: absolute;
+      left: 500px;
+      height: 100%;
+    }
+
+      .slick-next {
+        width: 100%;
+        margin-right: 30px;
+        background: url("/img/Arrow 8.png") no-repeat, 194px 0;
+        border: none;
+        position: absolute;
+        left: 800px;
+        height: 100%;
+        top: -3px;
+
+      }
+
+      img{
+        margin: 100px 20px;
+      }
+    }
+}
+}
+
+  #footer {
+    .footer {
+      &_general {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        img, a, h4 {
+          margin: 30px;
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFF;
+
+        }
+      }
+    }
+  }
